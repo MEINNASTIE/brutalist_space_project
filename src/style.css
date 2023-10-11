@@ -122,10 +122,6 @@ button:hover {
     border: 2px solid black;
 }
 
-#astronauts-button:hover {
-    background-color: #005aa7;
-}
-
 #astronauts-list ul {
     list-style-type: none;
     padding: 0;
@@ -167,6 +163,10 @@ button:hover {
 #apod img {
     border: 2px solid black;
     border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 /* History styles */
@@ -184,6 +184,7 @@ button:hover {
     bottom: 5%;
     left: 3%;
     z-index: -1;
+    opacity: 0.5;
 }
 #apollo_interior {
     position: absolute;
@@ -191,6 +192,7 @@ button:hover {
     right: 3%;
     top: 5%;
     z-index: -1;
+    opacity: 0.5;
 }
 #apollo_escape {
     position: absolute;
@@ -198,6 +200,7 @@ button:hover {
     top: 5%;
     left: 3%;
     z-index: -1;
+    opacity: 0.5;
 }
 #apollo_service {
     position: absolute;
@@ -205,6 +208,7 @@ button:hover {
     bottom: 5%;
     right: 5%;
     z-index: -1;
+    opacity: 0.5;
 }
 
 /* buttons display */
@@ -244,6 +248,16 @@ button:hover {
     z-index: -1;
 }
 
+#av-orbit-48274 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
 /* footer section */
 /* CSS for the marquee loop effect */
 .marquee-container {
@@ -276,6 +290,17 @@ button:hover {
     right: 35%;
     width: 550px;
     border: 2px dashed black;
+}
+#About_section a {
+    text-decoration: none;
+    color: #005aa7;
+}
+#About_section a::after {
+    color: #005aa7;
+}
+#About_section a:active {
+    text-decoration: none;
+    color: #005aa7;
 }
 
 #Brutalism_section {
@@ -314,6 +339,7 @@ button:hover {
     position: absolute;
     top: 40%;
     right: 5%;
+    cursor: pointer;
 }
 .image-container {
     display: flex;
@@ -334,3 +360,5 @@ button:hover {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
